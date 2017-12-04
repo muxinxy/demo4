@@ -25,7 +25,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    private DrawerLayout mydrawerLayout ;
+    private DrawerLayout mydrawerLayout;
     private List <Hospital > Hospitals=new ArrayList<>() ;
     SwipeRefreshLayout swipeRefresh;
     HospitalAdapter hospitalAdapter;
